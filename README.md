@@ -76,3 +76,36 @@ and mutability, and explores small integer caching using 256 and 257.
 - Modifying `list1` also changes `list3` because both reference the same mutable list.
 - Small integer caching can affect identity comparisons such as `a is b`.
 - `==` should be used for value comparison, while `is` should be used for object identity.
+
+## Assignment 03 - Scope and Namespaces
+
+This assignment demonstrates Python's scope resolution rules and the
+use of the `global` and `nonlocal` keywords.
+
+### Task 3.1 - LEGB Lookup Order
+
+The program demonstrates the LEGB rule:
+
+- Local
+- Enclosing
+- Global
+- Built-in
+
+The value of `x` is traced through local, enclosing, and global scopes
+by changing the definitions and observing which value Python resolves.
+
+### Task 3.2 - Global and Nonlocal
+
+The program demonstrates how `global` can modify a variable defined in
+the global scope and how `nonlocal` can modify a variable from an
+enclosing function scope.
+
+### Concepts Demonstrated
+
+- LEGB scope resolution
+- Local scope
+- Enclosing scope
+- Global scope
+- `global` keyword
+- `nonlocal` keyword
+- Nested functions
