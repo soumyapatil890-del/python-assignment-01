@@ -109,3 +109,65 @@ enclosing function scope.
 - `global` keyword
 - `nonlocal` keyword
 - Nested functions
+
+
+## Variables
+
+This section contains Python exercises focused on variables,
+variable naming, string formatting, and basic calculations.
+
+### Assignment 01 - Student ID Card Generator
+
+Create variables to store:
+
+- Student Name
+- Roll Number
+- Branch
+- Semester
+- College Name
+
+The program prints the student details in a neatly formatted ID card.
+
+**Bonus:** Creates an `email_id` using the student's name and roll number.
+
+### Assignment 02 - Variable Naming Inspector
+
+Analyze the following variable names:
+
+- `EmployeeName`
+- `employee_name`
+- `employee-name`
+- `employeeName`
+- `Employee_Name`
+- `employee1`
+- `1employee`
+
+The program identifies valid and invalid names, rewrites invalid names,
+and mentions which names follow Python best practices.
+
+### Assignment 03 - Grocery Bill
+
+Store:
+
+- Shop Name
+- Item 1 Price
+- Item 2 Price
+- Item 3 Price
+
+Calculate:
+
+- Total
+- GST (18%)
+- Final Amount
+
+The program then prints a formatted grocery bill.
+
+### Concepts Demonstrated
+
+- Variables
+- Variable naming rules
+- `snake_case`
+- String methods
+- F-strings
+- Arithmetic operations
+- Basic output formatting
