@@ -231,3 +231,39 @@ uppercase email, and email length.
 - `lower()`
 - `upper()`
 - `len()`
+
+
+## Control Statements
+
+This section contains Python exercises focused on conditional
+statements, loops, and controlling program flow.
+
+### Assignment 01 - ATM Withdrawal
+
+Stores the account balance and withdrawal amount. Checks whether
+the balance is sufficient, displays the transaction result, and
+prints the remaining balance when the withdrawal succeeds.
+
+### Assignment 02 - Login Attempts
+
+Allows a maximum of three login attempts using a `while` loop.
+The correct password is `admin123`. The program displays
+`Login Successful`, `Try Again`, or `Account Locked` depending
+on the login result.
+
+### Assignment 03 - Even Numbers Printer
+
+Uses a `for` loop to print all even numbers from 1 to 50 and
+counts the total number of even numbers printed.
+
+### Concepts Demonstrated
+
+- `if` statements
+- `else` statements
+- `while` loops
+- `for` loops
+- `break`
+- Comparison operators
+- Modulo operator `%`
+- Counters
+- Conditional logic
