@@ -171,3 +171,30 @@ The program then prints a formatted grocery bill.
 - F-strings
 - Arithmetic operations
 - Basic output formatting
+
+## Core Data Types
+
+This section contains Python exercises focused on selecting and
+working with appropriate built-in data types for real-world data.
+
+### Assignment 01 - Hospital Patient Record
+
+Stores patient name, age, weight, and insurance status, then prints
+each value along with its datatype and explains why the selected
+datatype is appropriate.
+
+### Assignment 02 - Online Exam Result
+
+Stores student name, marks obtained, percentage, and pass/fail status.
+The program prints a result summary and, when the student fails,
+calculates the additional marks needed to reach the passing mark of 35.
+
+### Concepts Demonstrated
+
+- `str`
+- `int`
+- `float`
+- `bool`
+- `type()`
+- Boolean expressions
+- Basic calculations
