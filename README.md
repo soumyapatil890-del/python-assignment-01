@@ -198,3 +198,36 @@ calculates the additional marks needed to reach the passing mark of 35.
 - `type()`
 - Boolean expressions
 - Basic calculations
+
+## Working With Data
+
+This section contains Python exercises focused on performing
+calculations and manipulating data using variables and basic
+built-in operations.
+
+### Assignment 01 - Electricity Bill
+
+Stores the previous reading, current reading, and cost per unit.
+Calculates the units consumed and total electricity bill.
+
+### Assignment 02 - Product Discount
+
+Stores the product price and discount percentage.
+Calculates the discount amount and final price, with the final
+price rounded to two decimal places.
+
+### Assignment 03 - Company Email Generator
+
+Stores the first name, last name, and company name.
+Generates a company email and displays the original name,
+uppercase email, and email length.
+
+### Concepts Demonstrated
+
+- Arithmetic calculations
+- Percentage calculations
+- `round()`
+- String concatenation
+- `lower()`
+- `upper()`
+- `len()`
